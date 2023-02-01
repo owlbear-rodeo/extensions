@@ -1,0 +1,13 @@
+name: Update Extention Store
+on: 
+  push:
+    paths:
+      - "extensions.json"
+    branches:
+      - main
+jobs:
+  regenerate:
+    name: Update Extension Store
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -X POST "${{ secrets.EXTENSION_STORE_DEPLOY_WEBHOOK }}"
