@@ -1,0 +1,16 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "trigger": "node ./discord-webhook/index.js",
+    "deploy": "node ./extension-store-deploy/index.js"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "gray-matter": "^4.0.3",
+    "node-fetch": "^3.3.1"
+  }
+}
