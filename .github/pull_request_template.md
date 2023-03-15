@@ -20,5 +20,3 @@ Please, go through these steps before you submit a PR.
 - [ ] Your pull request MUST target the `main` branch on this repository.
 
 - [ ] Your pull request puts your extensions details as the last entry in the extensions.json file
-
-**IMPORTANT:** Please review the [CONTRIBUTING.md](../CONTRIBUTING.md) file for detailed contributing guidelines.
