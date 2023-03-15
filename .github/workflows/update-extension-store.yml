@@ -7,7 +7,7 @@ on:
       - main
   workflow_dispatch:
     branches:
-    - feature/*
+    - main
 
 jobs:
   regenerate:
