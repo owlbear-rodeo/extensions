@@ -5,9 +5,28 @@ on:
       - "extensions.json"
     branches:
       - main
+  workflow_dispatch:
+    branches:
+    - feature/*
+
 jobs:
   regenerate:
     name: Update Extension Store
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X POST "${{ secrets.EXTENSION_STORE_DEPLOY_WEBHOOK }}"
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install Packages
+        run: yarn --cwd ./scripts
+      - name: Run Cloudflare Deployment
+        run: yarn --cwd ./scripts run deploy
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_WEBHOOK: ${{ secrets.EXTENSION_STORE_DEPLOY_WEBHOOK }}
+      - name: Notify Discord ExtensionsAccouncements Channel
+        run: yarn --cwd ./scripts run trigger
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
