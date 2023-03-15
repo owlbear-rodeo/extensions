@@ -23,7 +23,6 @@ function createDiscordEmbed(id, title, description, url, image, author, tags) {
     ],
   };
 
-  console.log(embed);
   return embed;
 }
 
