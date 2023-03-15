@@ -21,13 +21,8 @@ async function fetchDeploymentDetails(url) {
     if (result.ok) {
       const body = await result.json();
 
-      console.log("deploy res");
-      console.log(body);
-
       return body;
     }
-
-    console.log(await result.text());
   } catch (e) {
     console.error(e);
   } finally {
