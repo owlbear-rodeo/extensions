@@ -3,5 +3,6 @@
   "dice": "https://raw.githubusercontent.com/owlbear-rodeo/dice/main/docs/store.md",
   "colored-rings": "https://raw.githubusercontent.com/owlbear-rodeo/colored-rings/main/docs/store.md",
   "dddice": "https://cdn.dddice.com/owlbear/store.md",
-  "cs5-ap-tracker": "https://raw.githubusercontent.com/pumbers/owlbear-cs5-ap-tracker/main/public/store.md"
+  "cs5-ap-tracker": "https://raw.githubusercontent.com/pumbers/owlbear-cs5-ap-tracker/main/public/store.md",
+  "battle-tracker": "https://raw.githubusercontent.com/Heonozis/obr-battle-tracker/main/store.md"
 }
