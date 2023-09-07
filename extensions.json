@@ -16,5 +16,6 @@
   "pdf-reader": "https://www.battle-system.com/owlbear/pdfd-docs/store.md",
   "sit": "https://sit.manuelpoell.at/assets/store.md",
   "marked": "https://www.battle-system.com/owlbear/marked-docs/store.md",
-  "hp-tracker": "https://raw.githubusercontent.com/kamejosh/owlbear-hp-tracker/master/docs/store.md"
+  "hp-tracker": "https://raw.githubusercontent.com/kamejosh/owlbear-hp-tracker/master/docs/store.md",
+  "path-measure": "https://raw.githubusercontent.com/Kaisky1911/obr-extension-path-measure/main/store.md"
 }
