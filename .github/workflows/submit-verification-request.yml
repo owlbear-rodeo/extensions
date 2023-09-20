@@ -12,6 +12,13 @@ jobs:
         if: contains(github.event.comment.body, '/verify')
         with:
           node-version: 16
+      - uses: actions/github-script@v6
+        id: process-comment
+        with:
+          script: |
+            const body = github.event.comment.body
+            const result = body.split[" "][1]
+            console.log(result)
       - uses: actions/checkout@v3
       - name: Install Packages
         run: yarn --cwd ./scripts install --frozen-lockfile
@@ -19,6 +26,7 @@ jobs:
         run: node --no-warnings ./scripts/verify/index.js
         env:
           DISCORD_VERIFY_WEBHOOK: ${{ secrets.DISCORD_VERIFY_WEBHOOK }}
+          EXTENSION_KEY: ${{ steps.process-comment.outputs.result }}
       - uses: actions/github-script@v6
         with:
           script: |
