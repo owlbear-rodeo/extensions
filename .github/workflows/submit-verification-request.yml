@@ -17,6 +17,8 @@ jobs:
         run: yarn --cwd ./scripts install --frozen-lockfile
       - name: Submit Request to Discord
         run: node --no-warnings ./scripts/verify/index.js
+        env:
+          DISCORD_VERIFY_WEBHOOK: ${{ secrets.DISCORD_VERIFY_WEBHOOK }}
       - uses: actions/github-script@v6
         with:
           script: |
