@@ -48,15 +48,6 @@ async function checkExtensionManifest() {
     return false;
   }
 
-  // const data = {
-  //   description: "An example manifest for testing",
-  //   author: "Extension Tests",
-  //   image: "https://example.com/",
-  //   icon: "https://example.com/",
-  //   manifest: "https://example.com/manifest.json",
-  //   "learn-more": "learn-more.com",
-  // };
-
   const issues = validateManifest(data);
 
   return issues;
