@@ -1,0 +1,28 @@
+name: Submit Verification Request
+on:
+  issue_comment:
+    types: [created, edited]
+jobs:
+  submit:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Node
+        uses: actions/setup-node@v3
+        if: contains(github.event.comment.body, '/verify')
+        with:
+          node-version: 16
+      - uses: actions/checkout@v3
+      - name: Install Packages
+        run: yarn --cwd ./scripts install --frozen-lockfile
+      - name: Submit Request to Discord
+        run: node --no-warnings ./scripts/verify/index.js
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Verification has been submitted'
+            })
