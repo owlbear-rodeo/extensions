@@ -18,11 +18,12 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install Packages
         run: yarn --cwd ./scripts install --frozen-lockfile
-      - uses: actions/github-script@v6
+      - name: Run Manifest File Validation
         id: validation
-        with:
-          script: node --no-warnings ./scripts/validation/manifest.js
-          result-encoding: string
+        run: |
+          echo "result<<EOF" >> $GITHUB_OUTPUT
+          node --no-warnings ./scripts/validation/manifest.js >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       - uses: actions/github-script@v6
         with:
           script: |
