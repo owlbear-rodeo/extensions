@@ -17,7 +17,8 @@ jobs:
         with:
           script: |
             const body = context.payload.comment.body
-            const result = body.split[" "][1]
+            console.log(body)
+            const result = body.split[" "]
             console.log(result)
       - uses: actions/checkout@v3
       - name: Install Packages
