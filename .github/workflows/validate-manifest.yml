@@ -1,14 +1,14 @@
 name: Validate Matter
 on:
   # Trigger the workflow on push or pull request
-  pull_request:
+  pull_request_target:
     branches:
       - main
     paths:
       - "extensions.json"
 jobs:
   comment:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request_target'
     runs-on: ubuntu-latest
     steps:
       - name: Install Node
