@@ -16,8 +16,7 @@ jobs:
         id: process-comment
         with:
           script: |
-            console.log(context)
-            const body = context.issue.comment.body
+            const body = context.payload.comment.body
             const result = body.split[" "][1]
             console.log(result)
       - uses: actions/checkout@v3
