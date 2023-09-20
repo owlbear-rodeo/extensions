@@ -12,7 +12,7 @@ function createDiscordVerificationPost(id, data) {
 }
 
 export async function sendDiscordWebhook(value) {
-  const values = value.split(" ");
+  const values = `${value}`.split(" ");
   if (values.length !== 2) {
     console.log(values);
     throw Error("invalid submission");
