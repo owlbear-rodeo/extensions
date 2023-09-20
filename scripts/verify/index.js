@@ -18,6 +18,8 @@ export async function sendDiscordWebhook(value) {
     throw Error("invalid submission");
   }
 
+  console.log(values);
+
   const key = values[1];
   const { key: id, data } = await getExtensionDetailsFromKey(key);
 
@@ -38,4 +40,4 @@ export async function sendDiscordWebhook(value) {
   }
 }
 
-await sendDiscordWebhook("/verify dice");
+await sendDiscordWebhook(process.env.EXTENSION_KEY);
