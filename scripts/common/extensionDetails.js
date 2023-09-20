@@ -21,9 +21,6 @@ export async function getExtensionDetails() {
 export async function getExtensionDetailsFromKey(key) {
   const item = data[key];
 
-  console.log(key);
-  console.log(item);
-
   const result = await fetch(item);
 
   if (result.ok) {

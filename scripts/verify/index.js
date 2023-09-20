@@ -18,8 +18,6 @@ export async function sendDiscordWebhook(value) {
     throw Error("invalid submission");
   }
 
-  console.log(values);
-
   const key = values[1];
   const { key: id, data } = await getExtensionDetailsFromKey(key);
 
