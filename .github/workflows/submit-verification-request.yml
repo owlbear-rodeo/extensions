@@ -18,8 +18,6 @@ jobs:
           script: |
             const body = context.payload.comment.body
             console.log(body)
-            const result = body.split[" "]
-            console.log(result)
       - uses: actions/checkout@v3
       - name: Install Packages
         run: yarn --cwd ./scripts install --frozen-lockfile

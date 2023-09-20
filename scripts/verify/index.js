@@ -11,7 +11,13 @@ function createDiscordVerificationPost(id, data) {
   return post;
 }
 
-export async function sendDiscordWebhook(key) {
+export async function sendDiscordWebhook(value) {
+  const values = value.split(" ");
+  if (values.length !== 2) {
+    throw Error("invalid submission");
+  }
+
+  const key = values[1];
   const { key: id, data } = await getExtensionDetailsFromKey(key);
 
   const embed = createDiscordVerificationPost(id, data);
