@@ -20,7 +20,7 @@ jobs:
         run: yarn --cwd ./scripts install --frozen-lockfile
       - name: Run Manifest File Validation
         id: validation
-        run: echo "result=$(node --no-warnings ./validation/manifest.js)" >> $GITHUB_OUTPUT
+        run: echo "result=$(node --no-warnings ./scripts/validation/manifest.js)" >> $GITHUB_OUTPUT
       - uses: actions/github-script@v6
         with:
           script: |
