@@ -16,7 +16,7 @@ jobs:
         id: process-comment
         with:
           script: |
-            const body = github.event.comment.body
+            const body = github.event.issue_comment.comment.body
             const result = body.split[" "][1]
             console.log(result)
       - uses: actions/checkout@v3
