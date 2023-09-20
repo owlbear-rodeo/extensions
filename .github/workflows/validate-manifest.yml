@@ -1,15 +1,17 @@
 name: Validate Matter
 on:
   # Trigger the workflow on push or pull request
-  pull_request_target:
+  pull_request:
     branches:
       - main
     paths:
       - "extensions.json"
 jobs:
-  comment:
-    if: github.event_name == 'pull_request_target'
+  validate:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+    outputs:
+      result: ${{ steps.validation.outputs.result }}
     steps:
       - name: Install Node
         uses: actions/setup-node@v3
@@ -24,6 +26,12 @@ jobs:
           echo "result<<EOF" >> $GITHUB_OUTPUT
           node --no-warnings ./scripts/validation/manifest.js >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+  comment:
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
       - uses: actions/github-script@v6
         with:
           script: |
@@ -31,5 +39,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `${{ steps.validation.outputs.result }}`
+              body: `${{ needs.validate.outputs.result }}`
             })
