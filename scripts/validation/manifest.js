@@ -106,9 +106,8 @@ function formatConsoleOutput(issues) {
 |    icon     | This is an absolute link to your extensions icon and must be hosted on an external site                                                                                                                                                                                                                                                         |
 |    tags     | To help make your extension more discoverable you can add tags to it. In the extension store, users will be able to find your extension under that tag. You may only use our [supported tags](https://github.com/owlbear-rodeo/extensions/blob/main/tags.json) and only extensions published by Owlbear Rodeo can use the built-by-owlbear tag. |
 |  manifest   | This should have an link to your manifest file. This is what will be copied by other users to install your extension.                                                                                                                                                                                                                           |
-| learn-more  | You should link to a site or email that users can go to to find more information about your extension.                                                                                                                                                                                                                                          |
+| learn-more  | You should link to a site or email that users can go to to find more information about your extension.                                                                                                                                                                                                                                          |`;
 
-    `;
     console.log(output);
     return;
   }
