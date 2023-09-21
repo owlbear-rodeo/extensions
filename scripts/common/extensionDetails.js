@@ -17,3 +17,16 @@ export async function getExtensionDetails() {
     return { id, data };
   }
 }
+
+export async function getExtensionDetailsFromKey(key) {
+  const item = data[key];
+
+  const result = await fetch(item);
+
+  if (result.ok) {
+    const markdown = await result.text();
+    const data = matter(markdown)["data"];
+
+    return { key, data };
+  }
+}

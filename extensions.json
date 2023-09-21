@@ -13,6 +13,10 @@
   "ticker": "https://www.battle-system.com/owlbear/ticker-docs/store.md",
   "witchdice": "https://witchdice.com/owlbear_ext/store.md",
   "aoe-shapes": "https://owlbear-aoe.davidsev.co.uk/store.md",
+  "pdf-reader": "https://www.battle-system.com/owlbear/pdfd-docs/store.md",
+  "sit": "https://sit.manuelpoell.at/assets/store.md",
+  "marked": "https://www.battle-system.com/owlbear/marked-docs/store.md",
+  "hp-tracker": "https://raw.githubusercontent.com/kamejosh/owlbear-hp-tracker/master/docs/store.md",
   "last-fable": "https://fabula-ultima-extension.onrender.com/store.md",
   "ultimate-story": "https://fabula-ultima-character-extension.onrender.com/store.md"
 }
