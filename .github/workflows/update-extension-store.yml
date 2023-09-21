@@ -1,18 +1,19 @@
 name: Update Extention Store
-on: 
+on:
   push:
     paths:
       - "extensions.json"
     branches:
       - main
   workflow_dispatch:
-    branches:
-    - main
 
 jobs:
   regenerate:
     name: Update Extension Store
     runs-on: ubuntu-latest
+    outputs:
+      issue: ${{ context.issue.number }}
+      output2: ${{ steps.step2.outputs.test }}
     steps:
       - name: Install Node
         uses: actions/setup-node@v3
