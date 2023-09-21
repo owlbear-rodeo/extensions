@@ -11,6 +11,9 @@ jobs:
   regenerate:
     name: Update Extension Store
     runs-on: ubuntu-latest
+    outputs:
+      issue: ${{ context.issue.number }}
+      output2: ${{ steps.step2.outputs.test }}
     steps:
       - name: Install Node
         uses: actions/setup-node@v3
@@ -41,18 +44,3 @@ jobs:
         run: yarn --cwd ./scripts run trigger
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Your extension is now available on the Extension Store! 🎉
-
-                You can now submit your extension for verification. To start the verification process respond to your pull request with the message \`/verify <extension name>\` where \`<extension-name>\` is the key used in the \`extensions.json\` file in your pull request.
-
-                Once this has been done a thread will be created on the [Owlbear Rodeo Discord](https://discord.gg/u5RYMkV98s) tracking the status of all the above guidelines.
-
-                Once the community has verified that all the guidelines have been passed the Owlbear Rodeo team will add the verified badge to your extension.`
-            })
