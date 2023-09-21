@@ -50,7 +50,7 @@ jobs:
               repo: context.repo.repo,
               body: `Your extension is now available on the Extension Store! 🎉
 
-                You can now submit your extension for verification. To start the verification process respond to your pull request with the message `/verify <extension name>` where `<extension-name>` is the key used in the `extensions.json` file in your pull request.
+                You can now submit your extension for verification. To start the verification process respond to your pull request with the message \`/verify <extension name>\` where \`<extension-name>\` is the key used in the `extensions.json` file in your pull request.
 
                 Once this has been done a thread will be created on the [Owlbear Rodeo Discord](https://discord.gg/u5RYMkV98s) tracking the status of all the above guidelines.
 
