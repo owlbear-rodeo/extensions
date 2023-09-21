@@ -30,3 +30,16 @@ export async function getExtensionDetailsFromKey(key) {
     return { key, data };
   }
 }
+
+export async function getExtensionDetailsFromUrl(url) {
+  const result = await fetch(url);
+
+  if (result.ok) {
+    const markdown = await result.text();
+    const data = matter(markdown)["data"];
+
+    console.log("data", data);
+
+    return data;
+  }
+}
