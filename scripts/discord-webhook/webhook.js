@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-import { getExtensionDetails } from "./extensionDetails.js";
+import { getExtensionDetails } from "../common/extensionDetails.js";
 
 function createDiscordEmbed(id, title, description, url, image, author, tags) {
   const embed = {
