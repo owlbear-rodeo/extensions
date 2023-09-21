@@ -14,19 +14,24 @@ jobs:
           node-version: 16
       - uses: actions/github-script@v6
         id: process-comment
+        if: contains(github.event.comment.body, '/verify')
         with:
           script: |
             const body = context.payload.comment.body
             return body
       - uses: actions/checkout@v3
+        if: contains(github.event.comment.body, '/verify')
       - name: Install Packages
+        if: contains(github.event.comment.body, '/verify')
         run: yarn --cwd ./scripts install --frozen-lockfile
       - name: Submit Request to Discord
+        if: contains(github.event.comment.body, '/verify')
         run: node --no-warnings ./scripts/verify/index.js
         env:
           DISCORD_VERIFY_WEBHOOK: ${{ secrets.DISCORD_VERIFY_WEBHOOK }}
           EXTENSION_KEY: ${{ steps.process-comment.outputs.result }}
       - uses: actions/github-script@v6
+        if: contains(github.event.comment.body, '/verify')
         with:
           script: |
             github.rest.issues.createComment({
