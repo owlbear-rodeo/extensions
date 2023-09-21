@@ -22,5 +22,6 @@
   "dummysheet": "https://www.dummysheet.com/store.md",
   "condition-markers": "https://raw.githubusercontent.com/kgbergman/conditionmarkers/main/docs/store.md",
   "flip": "https://www.battle-system.com/owlbear/flip-docs/store.md",
-  "token-anonymizer": "https://owlbear-token-anonymizer.davidsev.co.uk/store.md"
+  "token-anonymizer": "https://owlbear-token-anonymizer.davidsev.co.uk/store.md",
+  "bubble-tracker": "https://raw.githubusercontent.com/SeamusFinlayson/Bubbles-for-Owlbear-Rodeo/master/docs/store.md"
 }
