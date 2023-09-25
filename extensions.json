@@ -17,5 +17,15 @@
   "sit": "https://sit.manuelpoell.at/assets/store.md",
   "marked": "https://www.battle-system.com/owlbear/marked-docs/store.md",
   "hp-tracker": "https://raw.githubusercontent.com/kamejosh/owlbear-hp-tracker/master/docs/store.md",
+  "last-fable": "https://fabula-ultima-extension.onrender.com/store.md",
+  "ultimate-story": "https://fabula-ultima-character-extension.onrender.com/store.md",
+  "dummysheet": "https://www.dummysheet.com/store.md",
+  "condition-markers": "https://raw.githubusercontent.com/kgbergman/conditionmarkers/main/docs/store.md",
+  "flip": "https://www.battle-system.com/owlbear/flip-docs/store.md",
+  "token-anonymizer": "https://owlbear-token-anonymizer.davidsev.co.uk/store.md",
+  "bubble-tracker": "https://raw.githubusercontent.com/SeamusFinlayson/Bubbles-for-Owlbear-Rodeo/master/docs/store.md",
+  "movement-tracker": "https://movement-tracker.abarbre.com/store.md",
+  "bendy-ruler": "https://owlbear-bendy-ruler.davidsev.co.uk/store.md",
+  "djinni-music-player": "https://raw.githubusercontent.com/kgbergman/djinni-music-player/main/docs/store.md",
   "path-measure": "https://raw.githubusercontent.com/Kaisky1911/obr-extension-path-measure/main/store.md"
 }
