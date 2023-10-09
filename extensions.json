@@ -26,5 +26,9 @@
   "bubble-tracker": "https://raw.githubusercontent.com/SeamusFinlayson/Bubbles-for-Owlbear-Rodeo/master/docs/store.md",
   "movement-tracker": "https://movement-tracker.abarbre.com/store.md",
   "bendy-ruler": "https://owlbear-bendy-ruler.davidsev.co.uk/store.md",
+  "djinni-music-player": "https://raw.githubusercontent.com/kgbergman/djinni-music-player/main/docs/store.md",
+  "path-measure": "https://raw.githubusercontent.com/Kaisky1911/obr-extension-path-measure/main/store.md",
+  "dynamic-fog-import": "https://raw.githubusercontent.com/Doggo-saurus/obr-fog-import/main/public/store.md",
+  "scry": "https://www.battle-system.com/owlbear/scry-docs/store.md",
   "smoke": "https://www.battle-system.com/owlbear/smoke-docs/store.md"
 }
