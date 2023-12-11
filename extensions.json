@@ -30,5 +30,6 @@
   "scry": "https://www.battle-system.com/owlbear/scry-docs/store.md",
   "smoke": "https://www.battle-system.com/owlbear/smoke-docs/store.md",
   "theatre": "https://www.battle-system.com/owlbear/theatre-docs/store.md",
-  "default-view": "https://owlbear-default-view.davidsev.co.uk/store.md"
+  "default-view": "https://owlbear-default-view.davidsev.co.uk/store.md",
+  "tracks": "https://raw.githubusercontent.com/hypergig/obr-tracks/main/docs/store.md"
 }
