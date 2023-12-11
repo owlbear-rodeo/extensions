@@ -31,5 +31,6 @@
   "smoke": "https://www.battle-system.com/owlbear/smoke-docs/store.md",
   "theatre": "https://www.battle-system.com/owlbear/theatre-docs/store.md",
   "default-view": "https://owlbear-default-view.davidsev.co.uk/store.md",
-  "tracks": "https://raw.githubusercontent.com/hypergig/obr-tracks/main/docs/store.md"
+  "tracks": "https://raw.githubusercontent.com/hypergig/obr-tracks/main/docs/store.md",
+  "dashboard-maker": "https://raw.githubusercontent.com/RobertTate/dashboard-maker/main/docs/store.md"
 }
