@@ -33,5 +33,6 @@
   "default-view": "https://owlbear-default-view.davidsev.co.uk/store.md",
   "tracks": "https://raw.githubusercontent.com/hypergig/obr-tracks/main/docs/store.md",
   "dashboard-maker": "https://raw.githubusercontent.com/RobertTate/dashboard-maker/main/docs/store.md",
-  "outliner": "https://raw.githubusercontent.com/owlbear-rodeo/outliner/main/docs/store.md"
+  "outliner": "https://raw.githubusercontent.com/owlbear-rodeo/outliner/main/docs/store.md",
+  "owlclock": "https://owlclock.vijexa.dev/store.md"
 }
