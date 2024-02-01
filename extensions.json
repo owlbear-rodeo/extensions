@@ -34,5 +34,6 @@
   "tracks": "https://raw.githubusercontent.com/hypergig/obr-tracks/main/docs/store.md",
   "dashboard-maker": "https://raw.githubusercontent.com/RobertTate/dashboard-maker/main/docs/store.md",
   "outliner": "https://raw.githubusercontent.com/owlbear-rodeo/outliner/main/docs/store.md",
-  "owlclock": "https://owlclock.vijexa.dev/store.md"
+  "owlclock": "https://owlclock.vijexa.dev/store.md",
+  "prefabs": "https://raw.githubusercontent.com/owlbear-rodeo/prefabs/main/docs/store.md"
 }
