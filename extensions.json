@@ -35,5 +35,6 @@
   "dashboard-maker": "https://raw.githubusercontent.com/RobertTate/dashboard-maker/main/docs/store.md",
   "outliner": "https://raw.githubusercontent.com/owlbear-rodeo/outliner/main/docs/store.md",
   "owlclock": "https://owlclock.vijexa.dev/store.md",
-  "prefabs": "https://raw.githubusercontent.com/owlbear-rodeo/prefabs/main/docs/store.md"
+  "prefabs": "https://raw.githubusercontent.com/owlbear-rodeo/prefabs/main/docs/store.md",
+  "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md"
 }
