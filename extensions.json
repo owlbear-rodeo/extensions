@@ -36,5 +36,7 @@
   "outliner": "https://raw.githubusercontent.com/owlbear-rodeo/outliner/main/docs/store.md",
   "owlclock": "https://owlclock.vijexa.dev/store.md",
   "prefabs": "https://raw.githubusercontent.com/owlbear-rodeo/prefabs/main/docs/store.md",
+  "calendar": "https://www.battle-system.com/owlbear/calendar-docs/store.md",
+  "bones": "https://www.battle-system.com/owlbear/bones-docs/store.md",
   "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md"
 }
