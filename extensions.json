@@ -39,5 +39,6 @@
   "calendar": "https://www.battle-system.com/owlbear/calendar-docs/store.md",
   "bones": "https://www.battle-system.com/owlbear/bones-docs/store.md",
   "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md",
-  "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md"
+  "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md",
+  "external-links": "https://raw.githubusercontent.com/GravityDeficient/obr-external-links/main/docs/store.md"
 }
