@@ -41,6 +41,7 @@
   "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md",
   "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md",
   "calendar-of-harptos": "https://resident-uhlig.gitlab.io/owlbear-rodeo-calendar-of-harptos/store/index.md",
-  "sheet-from-beyond": "https://raw.githubusercontent.com/alvarocavalcanti/sheet-from-beyond/main/public/store.md",
-  "journal": "https://www.battle-system.com/owlbear/journal-docs/store.md"
+  "journal": "https://www.battle-system.com/owlbear/journal-docs/store.md",
+  "map-location-keys": "https://raw.githubusercontent.com/alvarocavalcanti/map-location-keys/main/public/store.md",
+  "sheet-from-beyond": "https://raw.githubusercontent.com/alvarocavalcanti/sheet-from-beyond/main/public/store.md"
 }
