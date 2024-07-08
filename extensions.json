@@ -40,5 +40,8 @@
   "bones": "https://www.battle-system.com/owlbear/bones-docs/store.md",
   "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md",
   "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md",
+  "calendar-of-harptos": "https://resident-uhlig.gitlab.io/owlbear-rodeo-calendar-of-harptos/store/index.md",
+  "journal": "https://www.battle-system.com/owlbear/journal-docs/store.md",
+  "map-location-keys": "https://raw.githubusercontent.com/alvarocavalcanti/map-location-keys/main/public/store.md",
   "external-links": "https://raw.githubusercontent.com/GravityDeficient/obr-external-links/main/docs/store.md"
 }
