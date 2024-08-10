@@ -42,5 +42,6 @@
   "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md",
   "calendar-of-harptos": "https://resident-uhlig.gitlab.io/owlbear-rodeo-calendar-of-harptos/store/index.md",
   "journal": "https://www.battle-system.com/owlbear/journal-docs/store.md",
-  "map-location-keys": "https://raw.githubusercontent.com/alvarocavalcanti/map-location-keys/main/public/store.md"
+  "map-location-keys": "https://raw.githubusercontent.com/alvarocavalcanti/map-location-keys/main/public/store.md",
+  "phases-automated": "https://raw.githubusercontent.com/SeamusFinlayson/phases-automated/main/docs/store.md"
 }
