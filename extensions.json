@@ -41,5 +41,12 @@
   "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md",
   "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md",
   "calendar-of-harptos": "https://resident-uhlig.gitlab.io/owlbear-rodeo-calendar-of-harptos/store/index.md",
+  "journal": "https://www.battle-system.com/owlbear/journal-docs/store.md",
+  "map-location-keys": "https://raw.githubusercontent.com/alvarocavalcanti/map-location-keys/main/public/store.md",
+  "dragonbane-initiative": "https://nboughton.uk/apps/obr-dragonbane-initiative/store.md",
+  "shortrest": "https://www.battle-system.com/owlbear/shortrest-docs/store.md",
+  "shadow-sheet": "https://shadow-sheet.online/store.md",
+  "sheet-from-beyond": "https://raw.githubusercontent.com/alvarocavalcanti/sheet-from-beyond/main/public/store.md",
+  "chronicle": "https://www.battle-system.com/owlbear/chronicle-docs/store.md",
   "decked": "https://www.battle-system.com/owlbear/decked-docs/store.md"
 }
