@@ -51,5 +51,6 @@
   "decked": "https://www.battle-system.com/owlbear/decked-docs/store.md",
   "external-links": "https://raw.githubusercontent.com/GravityDeficient/obr-external-links/main/docs/store.md",
   "segmentable-ruler": "https://raw.githubusercontent.com/SeamusFinlayson/owlbear-measure/main/docs/store.md",
-  "dynamic-fog": "https://raw.githubusercontent.com/owlbear-rodeo/dynamic-fog/main/docs/store.md"
+  "dynamic-fog": "https://raw.githubusercontent.com/owlbear-rodeo/dynamic-fog/main/docs/store.md",
+  "weather": "https://raw.githubusercontent.com/owlbear-rodeo/weather/main/docs/store.md"
 }
