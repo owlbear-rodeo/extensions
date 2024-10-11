@@ -52,5 +52,6 @@
   "external-links": "https://raw.githubusercontent.com/GravityDeficient/obr-external-links/main/docs/store.md",
   "segmentable-ruler": "https://raw.githubusercontent.com/SeamusFinlayson/owlbear-measure/main/docs/store.md",
   "dynamic-fog": "https://raw.githubusercontent.com/owlbear-rodeo/dynamic-fog/main/docs/store.md",
-  "weather": "https://raw.githubusercontent.com/owlbear-rodeo/weather/main/docs/store.md"
+  "weather": "https://raw.githubusercontent.com/owlbear-rodeo/weather/main/docs/store.md",
+  "NPC Generator": "https://github.com/Jimpeccable/NPC-Generator-OBR/blob/main/README.md"
 }
