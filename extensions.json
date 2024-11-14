@@ -54,5 +54,6 @@
   "dynamic-fog": "https://raw.githubusercontent.com/owlbear-rodeo/dynamic-fog/main/docs/store.md",
   "weather": "https://raw.githubusercontent.com/owlbear-rodeo/weather/main/docs/store.md",
   "phases-automated": "https://raw.githubusercontent.com/SeamusFinlayson/phases-automated/main/docs/store.md",
-  "token-auras": "https://raw.githubusercontent.com/SeamusFinlayson/token-auras/refs/heads/main/docs/store.md"
+  "token-auras": "https://raw.githubusercontent.com/SeamusFinlayson/token-auras/refs/heads/main/docs/store.md",
+  "quickdice": "https://raw.githubusercontent.com/Robert-Wegner/quickdice/main/docs/store.md"
 }
