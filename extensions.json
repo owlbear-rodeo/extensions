@@ -41,7 +41,6 @@
   "pretty-sordid": "https://raw.githubusercontent.com/SeamusFinlayson/initiative-tracker/main/docs/store.md",
   "owl-trackers": "https://raw.githubusercontent.com/SeamusFinlayson/owl-trackers/main/docs/store.md",
   "calendar-of-harptos": "https://resident-uhlig.gitlab.io/owlbear-rodeo-calendar-of-harptos/store/index.md",
-  "dcc-helper": "https://dccrpg.s3.amazonaws.com/owlbear/store.md",
   "journal": "https://www.battle-system.com/owlbear/journal-docs/store.md",
   "map-location-keys": "https://raw.githubusercontent.com/alvarocavalcanti/map-location-keys/main/public/store.md",
   "dragonbane-initiative": "https://nboughton.uk/apps/obr-dragonbane-initiative/store.md",
@@ -56,5 +55,6 @@
   "weather": "https://raw.githubusercontent.com/owlbear-rodeo/weather/main/docs/store.md",
   "phases-automated": "https://raw.githubusercontent.com/SeamusFinlayson/phases-automated/main/docs/store.md",
   "token-auras": "https://raw.githubusercontent.com/SeamusFinlayson/token-auras/refs/heads/main/docs/store.md",
-  "portals": "https://resident-uhlig.gitlab.io/owlbear-rodeo-portals/store/index.md"
+  "portals": "https://resident-uhlig.gitlab.io/owlbear-rodeo-portals/store/index.md",
+  "dcc-helper": "https://dccrpg.s3.amazonaws.com/owlbear/store.md"
 }
