@@ -56,5 +56,6 @@
   "phases-automated": "https://raw.githubusercontent.com/SeamusFinlayson/phases-automated/main/docs/store.md",
   "token-auras": "https://raw.githubusercontent.com/SeamusFinlayson/token-auras/refs/heads/main/docs/store.md",
   "portals": "https://resident-uhlig.gitlab.io/owlbear-rodeo-portals/store/index.md",
+  "compendium-browser": "https://raw.githubusercontent.com/Pjb518/OBR-extensions/refs/heads/main/compendium-browser/compendium-browser.md",
   "dcc-helper": "https://dccrpg.s3.amazonaws.com/owlbear/store.md"
 }
