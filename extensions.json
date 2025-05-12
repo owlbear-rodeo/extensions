@@ -57,5 +57,7 @@
   "portals": "https://resident-uhlig.gitlab.io/owlbear-rodeo-portals/store/index.md",
   "compendium-browser": "https://raw.githubusercontent.com/Pjb518/OBR-extensions/refs/heads/main/compendium-browser/compendium-browser.md",
   "dcc-helper": "https://dccrpg.s3.amazonaws.com/owlbear/store.md",
-  "condition-markers-2":"https://raw.githubusercontent.com/SeamusFinlayson/conditionmarkers/main/docs/store.md"
+  "condition-markers-2":"https://raw.githubusercontent.com/SeamusFinlayson/conditionmarkers/main/docs/store.md",
+  "peekaboo":"https://raw.githubusercontent.com/desain/owlbear-peekaboo/main/docs/store.md"
+
 }
