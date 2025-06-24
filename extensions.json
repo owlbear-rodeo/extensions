@@ -58,5 +58,6 @@
   "compendium-browser": "https://raw.githubusercontent.com/Pjb518/OBR-extensions/refs/heads/main/compendium-browser/compendium-browser.md",
   "dcc-helper": "https://dccrpg.s3.amazonaws.com/owlbear/store.md",
   "condition-markers-2": "https://raw.githubusercontent.com/SeamusFinlayson/conditionmarkers/main/docs/store.md",
-  "grimwild": "https://grimwild-extension.onrender.com/store.md"
+  "grimwild": "https://grimwild-extension.onrender.com/store.md",
+  "shadow-crawler": "https://raw.githubusercontent.com/alvarocavalcanti/shadowcrawler/main/public/store.md"
 }
