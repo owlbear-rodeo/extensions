@@ -61,5 +61,6 @@
   "grimwild": "https://grimwild-extension.onrender.com/store.md",
   "shadow-crawler": "https://raw.githubusercontent.com/alvarocavalcanti/shadowcrawler/main/public/store.md",
   "embers": "https://embers.armindo.eu/store.md",
-  "count": "https://www.battle-system.com/owlbear/count-docs/store.md"
+  "count": "https://www.battle-system.com/owlbear/count-docs/store.md",
+  "dm-screen": "https://raw.githubusercontent.com/johneckert/owlbear-dmscreen/main/docs/store.md"
 }
