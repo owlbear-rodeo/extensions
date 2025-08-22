@@ -3,7 +3,7 @@
   "dice": "https://raw.githubusercontent.com/owlbear-rodeo/dice/main/docs/store.md",
   "colored-rings": "https://raw.githubusercontent.com/owlbear-rodeo/colored-rings/main/docs/store.md",
   "dddice": "https://cdn.dddice.com/owlbear/store.md",
-  "cs5-ap-tracker": "https://raw.githubusercontent.com/pumbers/owlbear-cs5-ap-tracker/main/public/store.md",
+  "cs5-ap-tracker": "https://raw.githubusercontent.com/pumbers/owlbear-cs5-ap-tracker/main/static/store.md",
   "character-distances": "https://raw.githubusercontent.com/Croebh/owlbear-distances/main/docs/store.md",
   "token-counter": "https://raw.githubusercontent.com/maxpaulus43/owlbear_token_counter/main/docs/store.md",
   "sd-character-sheet": "https://raw.githubusercontent.com/maxpaulus43/owlbear-shadowdark-character-sheet/main/docs/store.md",
@@ -57,6 +57,10 @@
   "portals": "https://resident-uhlig.gitlab.io/owlbear-rodeo-portals/store/index.md",
   "compendium-browser": "https://raw.githubusercontent.com/Pjb518/OBR-extensions/refs/heads/main/compendium-browser/compendium-browser.md",
   "dcc-helper": "https://dccrpg.s3.amazonaws.com/owlbear/store.md",
-  "condition-markers-2":"https://raw.githubusercontent.com/SeamusFinlayson/conditionmarkers/main/docs/store.md",
+  "condition-markers-2": "https://raw.githubusercontent.com/SeamusFinlayson/conditionmarkers/main/docs/store.md",
+  "grimwild": "https://grimwild-extension.onrender.com/store.md",
+  "shadow-crawler": "https://raw.githubusercontent.com/alvarocavalcanti/shadowcrawler/main/public/store.md",
+  "embers": "https://embers.armindo.eu/store.md",
+  "count": "https://www.battle-system.com/owlbear/count-docs/store.md",
   "auras-and-emanations": "https://raw.githubusercontent.com/desain/owlbear-emanation/main/docs/store.md"
 }
