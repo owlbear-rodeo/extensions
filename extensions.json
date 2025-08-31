@@ -62,5 +62,6 @@
   "shadow-crawler": "https://raw.githubusercontent.com/alvarocavalcanti/shadowcrawler/main/public/store.md",
   "embers": "https://embers.armindo.eu/store.md",
   "count": "https://www.battle-system.com/owlbear/count-docs/store.md",
-  "auras-and-emanations": "https://raw.githubusercontent.com/desain/owlbear-emanation/main/docs/store.md"
+  "auras-and-emanations": "https://raw.githubusercontent.com/desain/owlbear-emanation/main/docs/store.md",
+  "battle-board": "https://battle-board.onrender.com/store.md"
 }
