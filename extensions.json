@@ -62,5 +62,13 @@
   "shadow-crawler": "https://raw.githubusercontent.com/alvarocavalcanti/shadowcrawler/main/public/store.md",
   "embers": "https://embers.armindo.eu/store.md",
   "count": "https://www.battle-system.com/owlbear/count-docs/store.md",
+  "auras-and-emanations": "https://raw.githubusercontent.com/desain/owlbear-emanation/main/docs/store.md",
+  "peekaboo":"https://raw.githubusercontent.com/desain/owlbear-peekaboo/main/docs/store.md",
+  "causality": "https://raw.githubusercontent.com/RobertTate/causality/main/docs/store.md",
+  "simple-hp-tracker": "https://raw.githubusercontent.com/jtaccinelli/simple-hp-tracker/refs/heads/main/docs/store.md",
+  "gm-daggerheart": "https://raw.githubusercontent.com/kamejosh/gm-daggerheart/refs/heads/master/docs/store.md",
+  "pixels-dice": "https://resident-uhlig.gitlab.io/owlbear-rodeo-pixels/store/index.md",
+  "draw-steel-tools": "https://raw.githubusercontent.com/SeamusFinlayson/draw-steel-tools/refs/heads/main/docs/store.md",
+  "loot": "https://jameskrayer.com/loot/docs/store.md",
   "dm-screen": "https://raw.githubusercontent.com/johneckert/owlbear-dmscreen/main/docs/store.md"
 }
