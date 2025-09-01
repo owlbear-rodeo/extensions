@@ -3,7 +3,7 @@
   "dice": "https://raw.githubusercontent.com/owlbear-rodeo/dice/main/docs/store.md",
   "colored-rings": "https://raw.githubusercontent.com/owlbear-rodeo/colored-rings/main/docs/store.md",
   "dddice": "https://cdn.dddice.com/owlbear/store.md",
-  "cs5-ap-tracker": "https://raw.githubusercontent.com/pumbers/owlbear-cs5-ap-tracker/main/public/store.md",
+  "cs5-ap-tracker": "https://raw.githubusercontent.com/pumbers/owlbear-cs5-ap-tracker/main/static/store.md",
   "character-distances": "https://raw.githubusercontent.com/Croebh/owlbear-distances/main/docs/store.md",
   "token-counter": "https://raw.githubusercontent.com/maxpaulus43/owlbear_token_counter/main/docs/store.md",
   "sd-character-sheet": "https://raw.githubusercontent.com/maxpaulus43/owlbear-shadowdark-character-sheet/main/docs/store.md",
@@ -60,5 +60,13 @@
   "condition-markers-2": "https://raw.githubusercontent.com/SeamusFinlayson/conditionmarkers/main/docs/store.md",
   "grimwild": "https://grimwild-extension.onrender.com/store.md",
   "shadow-crawler": "https://raw.githubusercontent.com/alvarocavalcanti/shadowcrawler/main/public/store.md",
+  "embers": "https://embers.armindo.eu/store.md",
+  "count": "https://www.battle-system.com/owlbear/count-docs/store.md",
+  "auras-and-emanations": "https://raw.githubusercontent.com/desain/owlbear-emanation/main/docs/store.md",
+  "peekaboo":"https://raw.githubusercontent.com/desain/owlbear-peekaboo/main/docs/store.md",
+  "causality": "https://raw.githubusercontent.com/RobertTate/causality/main/docs/store.md",
+  "simple-hp-tracker": "https://raw.githubusercontent.com/jtaccinelli/simple-hp-tracker/refs/heads/main/docs/store.md",
+  "gm-daggerheart": "https://raw.githubusercontent.com/kamejosh/gm-daggerheart/refs/heads/master/docs/store.md",
+  "pixels-dice": "https://resident-uhlig.gitlab.io/owlbear-rodeo-pixels/store/index.md",
   "draw-steel-tools": "https://raw.githubusercontent.com/SeamusFinlayson/draw-steel-tools/refs/heads/main/docs/store.md"
 }
