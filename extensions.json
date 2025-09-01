@@ -67,5 +67,6 @@
   "causality": "https://raw.githubusercontent.com/RobertTate/causality/main/docs/store.md",
   "simple-hp-tracker": "https://raw.githubusercontent.com/jtaccinelli/simple-hp-tracker/refs/heads/main/docs/store.md",
   "gm-daggerheart": "https://raw.githubusercontent.com/kamejosh/gm-daggerheart/refs/heads/master/docs/store.md",
-  "pixels-dice": "https://resident-uhlig.gitlab.io/owlbear-rodeo-pixels/store/index.md"
+  "pixels-dice": "https://resident-uhlig.gitlab.io/owlbear-rodeo-pixels/store/index.md",
+  "draw-steel-tools": "https://raw.githubusercontent.com/SeamusFinlayson/draw-steel-tools/refs/heads/main/docs/store.md"
 }
