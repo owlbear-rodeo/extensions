@@ -63,7 +63,7 @@
   "embers": "https://embers.armindo.eu/store.md",
   "count": "https://www.battle-system.com/owlbear/count-docs/store.md",
   "auras-and-emanations": "https://raw.githubusercontent.com/desain/owlbear-emanation/main/docs/store.md",
-  "peekaboo":"https://raw.githubusercontent.com/desain/owlbear-peekaboo/main/docs/store.md",
+  "peekaboo": "https://raw.githubusercontent.com/desain/owlbear-peekaboo/main/docs/store.md",
   "causality": "https://raw.githubusercontent.com/RobertTate/causality/main/docs/store.md",
   "simple-hp-tracker": "https://raw.githubusercontent.com/jtaccinelli/simple-hp-tracker/refs/heads/main/docs/store.md",
   "gm-daggerheart": "https://raw.githubusercontent.com/kamejosh/gm-daggerheart/refs/heads/master/docs/store.md",
@@ -79,5 +79,6 @@
   "dragon-disco": "https://dragondisco.com/owlbear/store.md",
   "dice-plus": "https://dice-plus.missinglinkdev.com/store.md",
   "trackers": "https://trackers.owlbear.rodeo/store.md",
-  "crawl": "https://www.battle-system.com/owlbear/crawl-docs/store.md"
+  "crawl": "https://www.battle-system.com/owlbear/crawl-docs/store.md",
+  "vagabond": "https://vagabond-extension.onrender.com/store.md"
 }
