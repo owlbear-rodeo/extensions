@@ -80,5 +80,6 @@
   "dice-plus": "https://dice-plus.missinglinkdev.com/store.md",
   "trackers": "https://trackers.owlbear.rodeo/store.md",
   "crawl": "https://www.battle-system.com/owlbear/crawl-docs/store.md",
-  "vagabond": "https://vagabond-extension.onrender.com/store.md"
+  "vagabond": "https://vagabond-extension.onrender.com/store.md",
+  "persistent-tokens": "https://raw.githubusercontent.com/desain/owlbear-persistence/main/docs/store.md"
 }
