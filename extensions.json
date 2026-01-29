@@ -82,5 +82,6 @@
   "crawl": "https://www.battle-system.com/owlbear/crawl-docs/store.md",
   "vagabond": "https://vagabond-extension.onrender.com/store.md",
   "tooltips": "https://raw.githubusercontent.com/desain/owlbear-tooltips/main/docs/store.md",
-  "landofeem-sheet": "https://raw.githubusercontent.com/blaze-sanecki/owlbear-landofeem-sheet/master/docs/store.md"
+  "landofeem-sheet": "https://raw.githubusercontent.com/blaze-sanecki/owlbear-landofeem-sheet/master/docs/store.md",
+  "persistent-tokens": "https://raw.githubusercontent.com/desain/owlbear-persistence/main/docs/store.md"
 }
