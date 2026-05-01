@@ -53,7 +53,6 @@
   "dynamic-fog": "https://raw.githubusercontent.com/owlbear-rodeo/dynamic-fog/main/docs/store.md",
   "weather": "https://raw.githubusercontent.com/owlbear-rodeo/weather/main/docs/store.md",
   "phases-automated": "https://raw.githubusercontent.com/SeamusFinlayson/phases-automated/main/docs/store.md",
-  "npc-realm-generator": "https://raw.githubusercontent.com/Jimpeccable/NPC-Generator-OBR/main/npc-realm-generator.md",
   "token-auras": "https://raw.githubusercontent.com/SeamusFinlayson/token-auras/refs/heads/main/docs/store.md",
   "portals": "https://resident-uhlig.gitlab.io/owlbear-rodeo-portals/store/index.md",
   "compendium-browser": "https://raw.githubusercontent.com/Pjb518/OBR-extensions/refs/heads/main/compendium-browser/compendium-browser.md",
@@ -73,5 +72,6 @@
   "loot": "https://jameskrayer.com/loot/docs/store.md",
   "dm-screen": "https://raw.githubusercontent.com/johneckert/owlbear-dmscreen/main/docs/store.md",
   "ds-dice": "https://raw.githubusercontent.com/cort-of-keo/obr-DS-dice-main/main/docs/store.md",
-  "ranges": "https://raw.githubusercontent.com/owlbear-rodeo/ranges/main/docs/store.md"
+  "ranges": "https://raw.githubusercontent.com/owlbear-rodeo/ranges/main/docs/store.md",
+  "npc-realm-generator": "https://raw.githubusercontent.com/Jimpeccable/NPC-Generator-OBR/main/npc-realm-generator.md"
 }
