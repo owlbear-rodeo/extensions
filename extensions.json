@@ -84,5 +84,13 @@
   "tooltips": "https://raw.githubusercontent.com/desain/owlbear-tooltips/main/docs/store.md",
   "landofeem-sheet": "https://raw.githubusercontent.com/blaze-sanecki/owlbear-landofeem-sheet/master/docs/store.md",
   "persistent-tokens": "https://raw.githubusercontent.com/desain/owlbear-persistence/main/docs/store.md",
+  "bag-it": "https://bag-it-extension.onrender.com/store.md",
+  "painting-tools": "https://painting-tools.owlbear.davidsev.co.uk/store.md",
+  "draw-initiative-dragonbane": "https://raw.githubusercontent.com/gabriel-aleixo/dragonbane-initiative-owlbearrodeo/master/docs/store.md",
+  "arrows": "https://arrows.owlbear.rodeo.zalambar.com/store-page.md",
+  "pulpscape-hex-range": "https://raw.githubusercontent.com/jjsoini/obr-extensions-store/main/hexrangetool/store.md",
+  "pulpscape-combat-tracker": "https://raw.githubusercontent.com/jjsoini/obr-extensions-store/main/pulpscape-tracker/store.md",
+  "forge": "https://www.battle-system.com/owlbear/forge-docs/store.md",
+  "one-page-importer": "https://raw.githubusercontent.com/EnderPy/one-page-importer/refs/heads/main/docs/store.md",
   "tables-plus": "https://tables-plus.missinglinkdev.com/store.md"
 }
