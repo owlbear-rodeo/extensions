@@ -81,6 +81,7 @@
   "trackers": "https://trackers.owlbear.rodeo/store.md",
   "crawl": "https://www.battle-system.com/owlbear/crawl-docs/store.md",
   "vagabond": "https://vagabond-extension.onrender.com/store.md",
+  "owl20": "https://owl20.friendlymimic.com/store.md",
   "tooltips": "https://raw.githubusercontent.com/desain/owlbear-tooltips/main/docs/store.md",
   "landofeem-sheet": "https://raw.githubusercontent.com/blaze-sanecki/owlbear-landofeem-sheet/master/docs/store.md",
   "persistent-tokens": "https://raw.githubusercontent.com/desain/owlbear-persistence/main/docs/store.md",
@@ -89,5 +90,11 @@
   "draw-initiative-dragonbane": "https://raw.githubusercontent.com/gabriel-aleixo/dragonbane-initiative-owlbearrodeo/master/docs/store.md",
   "arrows": "https://arrows.owlbear.rodeo.zalambar.com/store-page.md",
   "pulpscape-hex-range": "https://raw.githubusercontent.com/jjsoini/obr-extensions-store/main/hexrangetool/store.md",
+  "pulpscape-combat-tracker": "https://raw.githubusercontent.com/jjsoini/obr-extensions-store/main/pulpscape-tracker/store.md",
+  "forge": "https://www.battle-system.com/owlbear/forge-docs/store.md",
+  "one-page-importer": "https://raw.githubusercontent.com/EnderPy/one-page-importer/refs/heads/main/docs/store.md",
+  "tables-plus": "https://tables-plus.missinglinkdev.com/store.md",
+  "darktorch": "https://davrodpin.github.io/darktorch/docs/STORE.md",
+  "pools-plus": "https://pools-plus.missinglinkdev.com/store.md",
   "gm-vault": "https://owlbear-gm-vault.netlify.app/docs/store.md"
 }
