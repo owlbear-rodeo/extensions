@@ -1,3 +1,5 @@
+permissions:
+  contents: read
 name: Update Extention Store
 on:
   push:
@@ -13,10 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
           node-version: 16
-      - uses: actions/checkout@v3
+          package-manager-cache: false
+      - uses: actions/checkout@v7
       - name: Install Packages
         run: yarn --cwd ./scripts install --frozen-lockfile
       - name: Run Cloudflare Deployment
@@ -31,10 +34,11 @@ jobs:
     needs: regenerate
     steps:
       - name: Install Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
           node-version: 16
-      - uses: actions/checkout@v3
+          package-manager-cache: false
+      - uses: actions/checkout@v7
       - name: Install Packages
         run: yarn --cwd ./scripts install --frozen-lockfile
       - name: Notify Discord Extensions Announcements Channel
